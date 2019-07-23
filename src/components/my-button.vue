@@ -1,6 +1,6 @@
 <template>
   <div>
-    <transition
+    <div
     enter-active-class="fadeIn-enter"
     leave-active-class="fadeIn-leave-active">      
       <div v-if="isOpen">
@@ -11,7 +11,7 @@
           </div>
         </div>
       </div>
-    </transition>
+    </div>
     <button @click="isOpen = !isOpen;">
       {{ isOpen ? "Fermer" : "Ouvrir" }} fenêtre modale
     </button>
