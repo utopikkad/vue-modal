@@ -1,6 +1,6 @@
 <template>
   <div>
-    <transition name="modal"
+    <transition
     enter-active-class="fadeIn-enter"
     leave-active-class="fadeIn-leave-active">      
       <div v-if="isOpen">
