@@ -45,11 +45,6 @@ export default {
   opacity: 0;
   transition: all 0.2s step-end;
 }
-
-.fadeIn-enter .modal,
-.fadeIn-leave-active.modal {
-  transform: scale(1.1);
-}
 button {
   padding: 7px;
   margin-top: 10px;
