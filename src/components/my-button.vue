@@ -1,6 +1,8 @@
 <template>
   <div>
-    <transition name="modal">      
+    <transition name="modal"
+    enter-active-class="fadeIn-enter"
+    leave-active-class="fadeIn-leave-active">      
       <div v-if="isOpen">
         <div class="overlay" @click.self="isOpen = false;">
           <div class="modal">
